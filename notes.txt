@@ -1,0 +1,1 @@
+For best operation, use python:3.8 for docker else you may have poetry package dependecy installation issues
