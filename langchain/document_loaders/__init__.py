@@ -17,6 +17,8 @@ from langchain.document_loaders.conllu import CoNLLULoader
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.document_loaders.dataframe import DataFrameLoader
 from langchain.document_loaders.directory import DirectoryLoader
+from langchain.document_loaders.dropbox_directory import DropboxDirectoryLoader
+from langchain.document_loaders.dropbox_file import DropboxFileLoader
 from langchain.document_loaders.duckdb_loader import DuckDBLoader
 from langchain.document_loaders.email import (
     OutlookMessageLoader,
@@ -144,4 +146,6 @@ __all__ = [
     "BiliBiliLoader",
     "SlackDirectoryLoader",
     "GitLoader",
+    "DropboxDirectoryLoader",
+    "DropboxFileLoader",
 ]
